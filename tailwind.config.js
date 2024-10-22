@@ -43,6 +43,14 @@ export default {
 					DEFAULT: 'var(--destructive)',
 					foreground: 'var(--destructive-foreground)'
 				},
+				'received-message': {
+					DEFAULT: 'var(--received-message)',
+					foreground: 'var(--message-foreground)'
+				},
+				'sent-message': {
+					DEFAULT: 'var(--sent-message)',
+					foreground: 'var(--message-foreground)'
+				},
 				border: 'var(--border)',
 				input: 'var(--input)',
 				ring: 'var(--ring)',
