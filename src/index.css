@@ -52,7 +52,7 @@
     --destructive-foreground: #fafafa;
     --received-message: #242a73;
     --sent-message: #2b7321;
-    --message-foreground: #fafafa;
+    --messaidentifierge-foreground: #fafafa;
     --border: #25272b;
     --input: #25272b;
     --ring: #d6d6d6;
@@ -75,6 +75,6 @@
 
 @layer components {
   .bar-button {
-    @apply flex items-center gap-3 p-2 rounded leading-none cursor-pointer hover:bg-secondary
+    @apply flex items-center gap-3 p-2 rounded leading-none cursor-pointer hover:bg-secondary mb-1
   }
 }

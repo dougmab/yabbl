@@ -1,7 +1,7 @@
 import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs.tsx";
-import LoginForm from "@/components/LoginForm.tsx";
+import LoginForm from "@/components/auth/LoginForm.tsx";
 import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} from "@/components/ui/card.tsx";
-import RegisterForm from "@/components/RegisterForm.tsx";
+import RegisterForm from "@/components/auth/RegisterForm.tsx";
 
 const Login = () => {
   return (
